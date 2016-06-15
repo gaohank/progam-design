@@ -9,18 +9,18 @@ OBJDIR := ./obj
 OBJS := progam-design.o\
 	menu/menu_item.o\
 	menu/menu_func.o\
-	test/C_code/0-print.o\
-	test/C_code/1-struct.o\
-	test/C_code/2-pointer.o\
-	test/C_code/3-io.o\
-	test/linux_code/1-timer.o\
-	test/linux_code/2-time.o\
-	test/thread_code/thdopt.o\
-	test/process_code/pcsopt.o\
-	test/ipc_code/3_shm.o\
-	test/ipc_code/4_mesg.o\
-	test/ipc_code/5_sem.o\
-	test/network_code/1-tcp.o
+	test/0-c_code/0-print.o\
+	test/0-c_code/1-struct.o\
+	test/0-c_code/2-pointer.o\
+	test/0-c_code/3-io.o\
+	test/3-linux_code/1-timer.o\
+	test/3-linux_code/2-time.o\
+	test/4-thread_code/thdopt.o\
+	test/5-process_code/pcsopt.o\
+	test/6-ipc_code/3-shm.o\
+	test/6-ipc_code/4-mesg.o\
+	test/6-ipc_code/5-sem.o\
+	test/7-network_code/1-tcp.o
 TARDIR := ./out
 TAR := $(TARDIR)/progam 
 
